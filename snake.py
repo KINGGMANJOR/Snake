@@ -144,7 +144,7 @@ class MAIN:
 		self.snake.reset()
 
 	def draw_grass(self):
-		grass_color = (167,209,61)
+		grass_color = (0,60,80)
 		for row in range(cell_number):
 			if row % 2 == 0: 
 				for col in range(cell_number):
